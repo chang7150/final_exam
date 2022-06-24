@@ -1,0 +1,6 @@
+t = set(["John", "Mary", "Tim", "Fiona", "Clairc", "Eva", "Ben", "Bill", "Bert"])
+e = set(["John", "Mary", "Fiona", "Clairc", "Ben", "Bill"])
+m = set(["Mary", "Fiona", "Clairc", "Eva", "Ben"])
+print("英文與數學都及格", (e&m))
+print("數學不及格", (t-m))
+print("英文及格且數學不及格", (e&(t-m)))
